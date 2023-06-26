@@ -1,0 +1,381 @@
+:root {
+    --fisrt-primary-color: #FFBE34;
+    --second-primary-color: #091242;
+    --secondary-color: #F4F4F4;
+    --heading-color: #1C1F35;
+    --paragraph-color: #666C89;
+    --gradiant: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p,
+li,
+span {
+    font-family: 'Krub', sans-serif;
+}
+
+/* End style's collection */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* start header */
+header.service {
+    background-image: url("../images/background-img/service-back.png") !important;
+    padding: 0px;
+    margin: 0px;
+    height: 510px;
+    max-width: 100%;
+    background-size: auto 510px !important;
+    background-repeat: no-repeat;
+
+}
+
+/* end header */
+/* start activities */
+section.activities {
+    padding: 90px 180px;
+
+}
+
+section.activities button {
+    width: 194px;
+    height: 60px;
+    background-color: var(--second-primary-color);
+    font-size: 16px;
+    line-height: 135.02%;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+}
+
+/* end activities */
+/* start our-plan */
+section.our-plan {
+    padding: 100px 100px 80px 100px;
+    background-color: var(--secondary-color);
+    margin-bottom: 6%;
+}
+
+div.plans {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+div.plans-image {
+    width: 100%;
+    position: relative;
+}
+
+div.plans-image img.first {
+    width: 650px;
+    height: 486px;
+}
+
+div.plans-image img.second {
+    width: 280px;
+    height: 290px;
+    box-sizing: border-box;
+    border-top: 20px solid var(--secondary-color);
+    border-left: 20px solid var(--secondary-color);
+    position: absolute;
+    top: 225px;
+    right: 10px;
+}
+
+div.plans-text {
+    width: 100%;
+}
+
+div.plan {
+    display: grid;
+    grid-template-columns: 48px auto;
+    margin-bottom: 30px;
+}
+
+div.plan div.plan-descript {
+    padding-left: 10px;
+}
+
+div.plan-descript h4 {
+    color: #1C1F35;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 26.3px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+div.plan-descript p {
+    color: #666C89;
+    font-size: 16px;
+    line-height: 24.24px;
+    margin-top: 0px;
+
+}
+
+/* end our-plan */
+/* start reports */
+article.reports {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 6%;
+}
+
+div.report1 {
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 17px auto;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+}
+
+div.quanitity {
+    width: 100%;
+}
+
+div.quanitity1 strong {
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--heading-color);
+    line-height: 59.25px;
+}
+
+div.quanitity strong {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--heading-color);
+    line-height: 59.25px;
+
+}
+
+div.square {
+    width: 17px;
+    background: var(--gradiant);
+    height: 17px;
+    margin-top: 20px;
+}
+
+div.square1 {
+    width: 17px;
+    background: var(--gradiant);
+    height: 17px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+div.rep-type {
+    margin-top: 20px;
+    width: 100%;
+}
+
+div.rep-type1 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+div.rep-type span {
+    font-size: 18px;
+    line-height: 18.4px;
+    color: var(--heading-color);
+    font-weight: bold;
+}
+
+div.rep-type1 span {
+    font-size: 18px;
+    line-height: 18.4px;
+    color: var(--heading-color);
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+
+/* end reports */
+/* end service */
+/* start service-single part */
+/* start header */
+header.service-single {
+    background-image: url("../images/background-img/service-single.png") !important;
+    padding: 0px;
+    margin: 0px;
+    height: 510px;
+    max-width: 100%;
+    background-size: auto 510px !important;
+    background-repeat: no-repeat;
+
+}
+
+div.box1 {
+    margin-top: 200px;
+    max-width: 130px;
+    height: 22px;
+    display: grid;
+    grid-template-columns: 4px auto;
+    background: rgba(4, 28, 55, 0.5);
+}
+
+/* end header */
+
+/* start main */
+main {
+    width: 75%;
+    margin: auto;
+}
+
+/* start transprt-srv */
+div.transport-srv {
+    margin-top: 6%;
+}
+
+div.its-heading {
+    width: 100%;
+    height: auto;
+}
+
+div.its-heading img {
+    width: 100%;
+    height: auto;
+}
+
+div.its-text {
+    margin-top: 30px;
+}
+
+div.its-text p {
+    font-size: 16px;
+    line-height: 24.24px;
+    color: var(--paragraph-color);
+}
+
+div.text-header {
+    display: grid;
+    width: 468px;
+    grid-template-columns: 50px 397px;
+    justify-content: space-between;
+}
+
+div.dscrpt h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 0px;
+    line-height: 55px;
+}
+
+/* end transport-srv */
+/* satrt srv-benefit */
+article.srv-benefit {
+    display: grid;
+    grid-template-columns: auto 600px;
+    margin-top: 10%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.srvbenefit-img {
+    width: 100%;
+    height: auto;
+}
+
+div.srvbenefit-img img {
+    width: 100%;
+    height: auto;
+}
+
+div.srvbenefit-text h4 {
+    font-size: 35px;
+    line-height: 41.48px;
+    color: var(--heading-color);
+    font-weight: 600px;
+    margin: 10px 0px;
+}
+
+div.srvbenefit-text p {
+    color: var(--paragraph-color);
+    font-size: 14px;
+    line-height: 24.24px;
+}
+
+div.main-benefits {
+    display: grid;
+    grid-template-columns: 14px auto;
+    margin: 20px 0px;
+}
+
+div.right-arrow {
+    width: 100%;
+    margin-right: 10px;
+}
+
+div.advantage span {
+    margin-left: 10px;
+    color: var(--heading-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.right-arrow i {
+    width: 100%;
+    font-size: 14px;
+    color: var(--heading-color);
+}
+
+/* end srv-benefit */
+/* start method */
+article.method {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 570px 450px;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10%;
+}
+
+div.method-img {
+    width: 100%;
+    height: auto;
+}
+
+div.method-img img {
+    width: 100%;
+    height: auto;
+}
+
+div.method-text {
+    margin-top: 30px;
+}
+
+div.method-text h4{
+font-size: 35px;
+line-height: 41.48px;
+color: var(--heading-color);
+margin: 10px 0px;
+font-weight: 600;
+}
+
+div.method-text p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+}
+/* end method */
+/* end main */
