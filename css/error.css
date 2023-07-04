@@ -1,0 +1,108 @@
+/* Start style's collection */
+:root {
+    --fisrt-primary-color: #FFBE34;
+    --second-primary-color: #091242;
+    --secondary-color: #F4F4F4;
+    --heading-color: #1C1F35;
+    --paragraph-color: #666C89;
+    --gradiant: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p,
+li,
+span {
+    font-family: 'Krub', sans-serif;
+}
+
+/* End style's collection */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header.error {
+    background-image: url("../images/background-img/error-back.png") !important;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    background-size: 100% 100% !important;
+}
+
+/* start not-found styles */
+section.not-found {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+section.not-found h1 {
+    font-size: 350px;
+    color: var(--heading-color);
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+section.not-found h1 span {
+    font-size: 350px;
+    color: #FFB629;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+section.not-found h4 {
+    margin: 0px;
+    color: var(--heading-color);
+    line-height: 41.48px;
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+section.not-found span {
+    color: var(--paragraph-color);
+    line-height: 24.24px;
+    font-size: 16px;
+   
+}
+
+section.not-found a {
+    text-decoration: none;
+}
+
+section.not-found a button {
+    height: 60px;
+    width: 194px;
+    background: var(--gradiant);
+    color: #23212A;
+    font-size: 16px;
+    border: none;
+    display: block;
+    margin: auto;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+section.not-found a button:hover {
+    color: #FFFFFF;
+    background: var(--second-primary-color);
+}
+/* end not-found styles */

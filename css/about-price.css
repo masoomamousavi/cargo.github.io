@@ -108,7 +108,7 @@ div.buttons {
 
 button.button1,
 button.button2 {
-    width: 190px;
+    width: 170px;
     height: 60px;
     font-size: 19px;
     line-height: 151.52%;
@@ -131,7 +131,7 @@ div.right-side p {
 
 button.learn-more {
     background: var(--second-primary-color);
-    width: 190px;
+    width: 170px;
     height: 60px;
     font-size: 16px;
     line-height: 135.02%;
@@ -213,17 +213,17 @@ div.media3 {
 
 div.media1 {
     position: relative;
-    left: 196px;
+    left: 153px;
 }
 
 div.media2 {
     position: relative;
-    left: 158px;
+    left: 127px;
 }
 
 div.media3 {
     position: relative;
-    left: 236px;
+    left: 205px;
 }
 div.media1 ul,
 div.media2 ul,
@@ -260,7 +260,7 @@ section.pricing {
 
 div.prices {
     display: grid;
-    grid-template-columns: 360px 360px 360px;
+    grid-template-columns: 32% 32% 32%;
     justify-content: space-between;
     gap: 20px;
 }
@@ -433,7 +433,7 @@ div.faq-contact-box {
     background: #091242;
     text-align: left;
     position: absolute;
-    top: 90px;
+    top: 55px;
     left: -100px;
     padding: 50px;
 }
@@ -518,7 +518,7 @@ section.logos {
     width: 75%;
     margin: auto;
     display: grid;
-    grid-template-columns: 290px 290px 290px 290px;
+    grid-template-columns: 25% 25% 25% 25%;
     margin-top: 40px;
     height: 234px;
     margin-bottom: 6%;
@@ -528,7 +528,8 @@ section.logos {
 
 div.logo-image1 {
     background-image: url("../images/contact/Photo\ \(1\).jpg");
-    background-size: 100% 100%;
+    background-size: 100% auto;
+    width: 100%;
 }
 
 div.logo-image2 {
@@ -551,3 +552,15 @@ div .cover {
 }
 
 /* end logos */
+/* end about styles */
+/* start pricing styles */
+
+header.price {
+    background-image: url("../images/background-img/pricing\ back.png") !important;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    max-width: 100%;
+    background-size: 100% 100% !important;
+}
+

@@ -103,6 +103,7 @@ div.content-icon img {
     text-align: left;
 }
 
+
 /* end first nav */
 /* Start header */
 header {
@@ -154,6 +155,7 @@ div.secondnav-menu ul li {
 
 }
 
+
 div.secondnav-menu ul li.home {
     padding-left: 0px;
 
@@ -171,6 +173,59 @@ div.secondnav-menu ul li a {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     padding-left: 20px;
 
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown span {
+    font-size: 16px;
+    line-height: 135.02%;
+    color: #FFFFFF;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 20px;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 120px;
+    background-color: #FFFFFF;
+}
+
+div.dropdown-content ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.dropdown-content ul li {
+    display: block;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.dropdown-content ul li a {
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+    border: 1px solid #8b8888;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    font-weight: 600;
+    padding: 10px 10px;
+    display: block;
+    font-size: 13px;
+    font-family: 'Krub', sans-serif;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 div.secondnav-icons {
@@ -496,7 +551,7 @@ div.type {
     grid-template-columns: 20px auto;
     width: 100%;
     margin-top: 25px;
-   
+
 }
 
 
@@ -870,9 +925,11 @@ div.titlebox-image {
 div.experts {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
     width: 100%;
-    height: 538px;
+    height: auto;
     gap: 30px;
+    margin-top: 0px;
 }
 
 div.expert-img {
@@ -881,7 +938,7 @@ div.expert-img {
 }
 
 
-div.expert-img img{
+div.expert-img img {
     width: 100%;
     height: 100%;
 }
@@ -892,6 +949,8 @@ div.about-expert {
     background: var(--heading-color);
     padding: 35px 30px;
     padding-bottom: 15px;
+    position: relative;
+
 }
 
 div.about-expert strong {
@@ -1056,6 +1115,7 @@ div.left-side input {
     font-family: 'League Spartan';
     padding: 15px 10px;
     margin: 15px 15px;
+    outline: none;
 }
 
 div.left-side textarea {
@@ -1069,6 +1129,7 @@ div.left-side textarea {
     padding: 10px;
     margin-left: 15px;
     margin-top: 15px;
+    outline: none;
 }
 
 div.left-side input.submit {
@@ -1185,8 +1246,10 @@ div.read-more {
     top: 40px;
     left: 40px;
     display: flex;
+    
     justify-content: center;
     align-items: center;
+    
 }
 
 div.read-more span {
@@ -1230,6 +1293,14 @@ div.report-descript {
     padding: 20px;
 }
 
+div.report-descript a {
+    text-decoration: none;
+}
+
+div.report-descript a h6:hover {
+    color: var(--fisrt-primary-color);
+}
+
 div.report-descript h6 {
     font-size: 25px;
     line-height: 30px;
@@ -1237,13 +1308,7 @@ div.report-descript h6 {
     margin: 0px;
 }
 
-div.report-descript h6.report-head {
-    font-size: 25px;
-    line-height: 30px;
-    margin: 0px;
-    color: var(--fisrt-primary-color);
-    width: 348px;
-}
+
 
 div.report-descript p {
     font-size: 16px;
@@ -1308,7 +1373,7 @@ nav.footer-nav {
 }
 
 div.first-container {
-    width: 70%;
+    width: 75%;
     margin: auto;
     display: grid;
     grid-template-columns: 35% 65%;
@@ -1329,11 +1394,12 @@ div.footer-logo img {
 div.footer-menu {
     padding: 0px;
     width: 100%;
+    padding-left: 15px !important;
 }
 
 div.footer-menu li {
     display: inline;
-    padding: 60px;
+    padding: 38px;
 }
 
 div.footer-menu li.first {
@@ -1352,9 +1418,9 @@ div.footer-menu li a {
 
 div.main-info {
     display: grid;
-    grid-template-columns: 319px 90px 90px 317px;
+    grid-template-columns: 40% 15% 15% 30%;
     justify-content: space-between;
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -1380,7 +1446,7 @@ div.list-info ul {
 
 div.main-info div.list-info li {
     list-style: none;
-    display: inline;
+    display: block;
 
 }
 
@@ -1453,19 +1519,23 @@ div.last-foot-content {
     width: 100%;
     border-top: 1px solid #4E5683;
     display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: space-between;
+    grid-template-columns: 55% 45%;
+
+}
+
+div.last-foot-text {
+    padding-left: 220px;
 }
 
 div.last-foot-content div.last-foot-text p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 250%;
     color: #FFFFFF;
 
 }
 
-div.last-foot-text {
-    margin-left: 60px;
+div.last-foot-list {
+    padding-right: 90px;
 }
 
 div.last-foot-content div.last-foot-list li {

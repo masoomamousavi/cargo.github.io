@@ -1,0 +1,350 @@
+/* Start style's collection */
+:root {
+    --fisrt-primary-color: #FFBE34;
+    --second-primary-color: #091242;
+    --secondary-color: #F4F4F4;
+    --heading-color: #1C1F35;
+    --paragraph-color: #666C89;
+    --gradiant: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p,
+li,
+span {
+    font-family: 'Krub', sans-serif;
+}
+
+/* End style's collection */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.box1 {
+    margin-top: 200px;
+    max-width: 90px;
+    height: 22px;
+    display: grid;
+    grid-template-columns: 4px auto;
+    background: rgba(4, 28, 55, 0.5);
+}
+
+header.team {
+    background-image: url("../images/background-img/team-back.png") !important;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 560px !important;
+}
+
+div.team-box {
+    margin-top: 250px;
+    max-width: 90px;
+    height: 22px;
+    display: grid;
+    grid-template-columns: 4px auto;
+    background: rgba(4, 28, 55, 0.5);
+}
+
+/* end header */
+/* start expert-team */
+
+div.experts-container {
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 50px 0px;
+}
+
+div.team-media1,
+div.team-media2,
+div.team-media3,
+div.team-media4 {
+    background: var(--gradiant);
+    display: inline-block;
+    padding: 15px 10px;
+    position: relative;
+    top: -120px;
+
+}
+
+div.team-media1 {
+    position: relative;
+    left: 168px;
+}
+
+div.team-media4 {
+    position: relative;
+    left: 159px;
+}
+
+div.team-media2 {
+    position: relative;
+    left: 120px;
+}
+
+div.team-media3 {
+    position: relative;
+    left: 198px;
+}
+
+div.team-media1 ul,
+div.team-media2 ul,
+div.team-media3 ul,
+div.team-media4 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.team-media1 li,
+div.team-media2 li,
+div.team-media3 li,
+div.team-media4 li {
+    display: inline;
+    padding: 10px;
+}
+
+/* end expert team */
+/* start cause styles */
+
+section.cause {
+    display: grid;
+    grid-template-columns: 53% 45%;
+    width: 85%;
+    margin: auto;
+    margin-top: 8%;
+    justify-content: space-between;
+    margin-right: 110px;
+    gap: 50px;
+    margin-bottom: 5%;
+}
+
+div.cause-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+div.cause-img img.cause1 {
+    width: 95%;
+    height: 480px;
+}
+
+div.cause-img img.cause2 {
+    border: 20px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    top: 230px;
+    left: 320px;
+}
+
+div.cause-descript {
+    width: 100%;
+    margin-top: 10%;
+}
+
+div.cause-descript p {
+    font-size: 16px;
+    color: var(--paragraph-color);
+    line-height: 24.24px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+div.benefit-causes {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top: 1px solid #D6D6D6;
+}
+
+div.benefit-causes h5 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 0px;
+    margin-top: 10px !important;
+    margin: 0px;
+    line-height: 29.63px;
+}
+
+div.benefit-causes p {
+    font-size: 16px;
+    color: var(--paragraph-color);
+    line-height: 24.24px;
+    margin-top: 10px;
+}
+
+/* end cause styles */
+
+/* start contact-styles */
+
+header.contact {
+    background-image: url("../images/background-img/contact-back.png") !important;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+/* start contact-form */
+
+section.contact-form {
+    width: 65%;
+    margin: auto;
+    background-color: var(--second-primary-color);
+    padding: 70px;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+div.contact-title-box1 {
+    height: 23px;
+    width: 71px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 4px auto;
+    background: rgba(232, 232, 232, 0.1);
+}
+
+div.contact-title-box1 span {
+    font-family: 'Rubik';
+    font-size: 14px !important;
+    margin-top: -23px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #FFFFFF !important;
+}
+
+div.contact-title1 {
+    text-align: center;
+}
+
+div.contact-title1 h2 {
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: bold;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+div.contact-title1 p {
+    font-size: 16px;
+    width: 100% !important;
+    line-height: 151.52%;
+    color: #FFFFFF;
+    width: 353px;
+}
+
+div.contact-infos {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6%;
+}
+
+div.contact-icon {
+    width: 63px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+div.contact-info span {
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    color: #FFFFFF;
+    line-height: 18.94px;
+}
+
+div.contact-main-form {
+    width: 100%;
+    margin-top: 10px;
+}
+
+div.contact-main-form input {
+    background: none;
+    border: 1px solid #4E5683;
+    font-size: 18px;
+    width: 45%;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'League Spartan';
+    padding: 15px 10px;
+    margin: 15px 15px;
+    outline: none;
+}
+
+div.contact-main-form textarea {
+    width: 100%;
+    height: 154px;
+    border: 1px solid #4E5683;
+    background: none;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'League Spartan';
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+div.contact-main-form input.submit {
+    width: 194px;
+    height: 60px;
+    background: var(--gradiant);
+    font-size: 16px;
+    line-height: 135.02%;
+    color: #23212A;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+/* end contact-form */
+/* start faq styles */
+section.faq1 {
+    width: 100%;
+    background: var(--secondary-color);
+    padding: 98px 0px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    justify-content: space-between;
+    margin-bottom:0px;
+}
+
+/* end faq styles */
+/* start logos styles */
+section.logos1 {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 40px;
+    height: 234px;
+    margin-bottom: 3%;
+
+}
+/* end logos styles */
