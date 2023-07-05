@@ -70,25 +70,33 @@ div.project-pic {
     position: relative;
 }
 
+div.project-pic img {
+    width: 100%;
+    height: auto;
+}
+
 div.project-pic div.pic-cover {
     width: 85%;
     height: 85%;
     background-color: var(--heading-color);
     opacity: 91%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
     position: absolute;
     top: 20px;
     left: 25px;
 }
 
+div.project-pic:hover div.pic-cover {
+    display: block;
+}
 
 
 div.pic-cover img {
     height: 28px !important;
     width: 28px !important;
-    text-align: center;
+    margin: auto;
+    margin-top: 115px;
+    display: block;
 }
 
 div.project-pics div.project-pic img {
@@ -253,7 +261,7 @@ section.related-projects h2 {
 
 }
 
-div.project-pics {
+div.project-pics1 {
     display: grid;
     grid-template-columns: 32% 32% 32%;
     width: 100%;

@@ -1239,25 +1239,28 @@ div.report-photo div.photo {
 }
 
 div.read-more {
-    width: 330px;
-    height: 233px;
+    min-width: 322px;
+    min-height: 230px;
     background: rgba(28, 31, 53, 0.91);
     position: absolute;
     top: 40px;
     left: 40px;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    
+    display: none;
+    text-align: center;
 }
 
 div.read-more span {
     font-size: 16px;
-    line-height: 135.02%;
     color: #FFFFFF;
     font-weight: bold;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
     word-spacing: 2px;
+}
+
+div.photo:hover div.read-more {
+    display: block;
 }
 
 div.photo img {
